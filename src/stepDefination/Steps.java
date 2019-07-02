@@ -17,6 +17,7 @@ public class Steps
     	 System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
 		    dr= new ChromeDriver();
 		   dr.manage().window().maximize();
+		   
 		   dr.get("http://www.newtours.demoaut.com/");
 	}
 
